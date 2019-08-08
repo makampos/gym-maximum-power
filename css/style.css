@@ -8,6 +8,12 @@ body{
 h1,h2,h3{
    line-height: 0;
 }
+/*Centraliza conteúdo na pagina*/
+.center{
+    max-width: 1440px;
+    margin: auto;
+    padding: auto; 
+}
 
 p{
     font-family: sans-serif;
@@ -113,9 +119,9 @@ ul{
 
 /*Imagem modelo mulher*/
 .female-model{
-    display: absolute;
+    display: relative;
     width: 35%;
-    height: auto;
+    height: 100;
     float: left;  
 }
 
@@ -123,8 +129,7 @@ ul{
 /*Define tamanho da segunda parte do website*/
 .second-content{
    height: 100px;
-   max-height: 100%;
-   
+   max-height: 100%;  
 }
 
 .text-title-second-content{
@@ -142,8 +147,89 @@ ul{
     font-style: italic;
     margin-left: 320px;
 }
+.third-content{
+    clear: both;
+    max-height: 100%;
+    background: chartreuse;
+}
 
-/**/
+.third-content h4{
+    font-size: 35px;
+    padding: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*Tabela planos*/
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-item{
+    border-top: 5px solid black;
+    height: 500px;
+    max-width: 100%;
+    margin: 10px;
+    width: auto;
+    background: white;
+}
+
+.titulo{
+    padding: 30px;
+    font-size: 35px;
+}
+
+.grid-item p{
+    padding: 12px;
+}
+
+.config-tabela{
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal; 
+}
+
+.formata-atividades{
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*Customiza icones fontawesome*/
+
+.fa-ul{
+    margin: 0 45px;
+}
+.fa-ul .fas{
+    font-size: 20px;
+    color: black;
+    margin: 0;
+
+ }
+
+li, span{
+    font-size: 16px; 
+}
+
+/*Customiza o botão "COMPRE AGORA"*/
+
+.button{
+  background-color: #3dc1d6;
+  padding: 14px 40px;
+  display: inline-block;
+  border-radius: 4px; 
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+
+
+
+
+
 
 
 
