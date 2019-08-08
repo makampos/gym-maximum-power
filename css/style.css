@@ -5,6 +5,17 @@ body{
     background-color: #22252e;
 }
 
+h1,h2,h3{
+   line-height: 0;
+}
+
+p{
+    font-family: sans-serif;
+    text-transform: none;
+    font-style: normal;
+    font-size: 17px;
+}
+
 /*Navbar*/
 
 .navbar{
@@ -29,7 +40,6 @@ ul{
     padding: 12px;
     color: white;
     font-size: 20px;
-   
 }
 /*Fim Navbar*/
 
@@ -59,6 +69,81 @@ ul{
 }
 /*Fim efeito navbar*/
 
+
+/*Imagem de fundo do início do website*/
+.top-background{
+    max-height: 700px; /*Define altura máxima para a sessão*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.main-background{ /*Propriedades relacionada a imagem de fundo do topo*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+
+
+/*Fim Top-background*/
+
+/*Sessão Sobre o centro de treinamento*/
+.main-content{
+    height: 300px;
+    max-height: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 1px;
+}
+
+.main-content, h1 h2{
+    font-size: 35px;
+    padding: 60px 50px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.main-content p {
+    width: 400px;
+    max-width: 100%;
+    text-align: left;
+}
+
+/*Imagem modelo mulher*/
+.female-model{
+    display: absolute;
+    width: 35%;
+    height: auto;
+    float: left;  
+}
+
+
+/*Define tamanho da segunda parte do website*/
+.second-content{
+   height: 100px;
+   max-height: 100%;
+   
+}
+
+.text-title-second-content{
+    color: white;
+    font-size: 140px;
+    text-transform: uppercase;
+    font-style: italic;  
+}
+
+.text-title-second-content-h3{
+    display: inline;
+    color: #3dc1d6;
+    font-size: 160px;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-left: 320px;
+}
+
+/**/
 
 
 
