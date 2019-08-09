@@ -5,7 +5,7 @@ body{
     background-color: #22252e;
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
    line-height: 0;
 }
 
@@ -95,6 +95,7 @@ ul{
   margin-left: auto;
   margin-right: auto;
   width: 100%; 
+  opacity: 0.7
 }
 
 
@@ -153,12 +154,40 @@ ul{
     margin-left: 320px;
 }
 
+/*Informação/Instituição*/
+
+.grid-container-matricula{
+    clear: both;
+    display: grid;
+    background: white;
+    height: 300px;
+    grid-template-columns: auto  500px;
+    overflow: hidden;
+    padding:0px 100px;
+}
+
+.grid-container-matricula h4{
+    font-size: 35px;
+}
+
+.grid-container-matricula h3{
+    margin: 0;
+    padding: 0;
+}
+
+.alinhamento{
+    width: 300px;
+    padding: 0px 30px 0;
+}
+
 /*Formata sessão dos planos*/
 .third-content{
     clear: both;
     max-height: 100%;
     background: white;
     padding-bottom: 100px;
+    border-top-width: 1px;
+    border-top-style: ridge;
 }
 
 .third-content h4{
@@ -234,6 +263,9 @@ li, span{
   transition: 0.2s;
   margin: 0;
 }
+
+
+
 
 
 
