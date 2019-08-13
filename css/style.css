@@ -31,6 +31,8 @@ p{
 
 .navbar{
     width: 100%; 
+    position: sticky;
+    top: 0;
 }
 
 ul{
@@ -115,6 +117,7 @@ ul{
     padding: 60px 50px;
     text-transform: uppercase;
     font-style: italic;
+    color: black;
 }
 
 .main-content p {
@@ -262,6 +265,57 @@ li, span{
   cursor: pointer;
   transition: 0.2s;
   margin: 0;
+}
+
+/*Formata sessão de atividades que o estabelecimento oferece*/
+.container-flex{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.item{
+    margin: 20px auto;     
+}
+
+.item:hover{
+    transform: scale(1.1);
+    padding: 0;
+    transition: 0.7s; 
+}
+
+.container-flex p{
+    text-transform: uppercase;
+    background-color: #3dc1d6;    
+}
+
+
+
+.titulo-tipos-aula{
+    color: white;
+    font-size: 35px;
+    padding: 60px 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Inserir texto sobre imagem !IMPORTANT - Position: Relative no container e na classe que esta atribuindo o texto*/
+.texto-sobre-imagem{
+    position: relative;
+    bottom: 3%;
+}
+
+.texto-sobre-imagem p{
+    width: 200px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    
+    
+    
+    
 }
 
 
