@@ -288,7 +288,8 @@ li, span{
 
 .container-flex p{
     text-transform: uppercase;
-    background-color: #3dc1d6;    
+    background-color: #3dc1d6;   
+    padding: 8px; 
 }
 
 
@@ -308,15 +309,85 @@ li, span{
 }
 
 .texto-sobre-imagem p{
-    width: 200px;
+    width: 100px;
     text-align: center;
     color: white;
-    margin: auto;
-    
-    
-    
+    margin: auto; 
+}
+
+/*FORMS*/
+
+.forms-h3{
+    text-transform: uppercase;
+    margin: 40px;
+}
+
+.forms{
+    margin: 120px;
+    text-align: center;
+}
+
+input[type=text] ,select{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+  font-family: sans-serif;  
+  width: 10%;
+  background-color: #2bd672;
+  color: white;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fa-envelope{
+    font-size: 30px;
+    display: inline-block;
+    margin: 20px;    
+}
+
+/*Footer*/
+
+.footer{
+    height: 250px;
+}
+.footer-flex {
+    display: flex;
+    justify-content: right;
+    padding: 40px;
+    margin-top: 50px;
     
 }
+.footer-flex .item {
+    font-size: 30px;
+    margin: 10px; 
+    color: rgb(224, 223, 223);
+}
+
+
+.footer-flex p{
+    position: relative;
+    bottom: 80%;
+    left: 140%;
+    color: white;
+}
+
+.footer-flex .item:hover{
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.border{
+    border: 2px solid #3dc1d6;
+}
+
 
 
 
