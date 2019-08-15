@@ -58,7 +58,7 @@ ul{
 
 /*Logo*/
 .fas{ 
-    font-size: 30px;
+    font-size: 50px;
     margin: 15px;
     color: #3dc1d6;
 }
@@ -67,15 +67,18 @@ ul{
     font-family: 'Passion One';
     text-transform: uppercase;
     letter-spacing: 6.0px;
+    
     margin:0px 10px;
     color: #3dc1d6;
-    font-size: 17px; 
+    font-size: 20px; 
+    vertical-align: middle;
 }
+
 /*Fim logo*/
 
 /*Efeito navbar*/
 .navbar-efeito a:hover{
-    border-bottom: 2px solid #3dc1d6;
+    border-bottom: 4px solid #3dc1d6;
     transition-duration: 0.4s;
     margin:0;
     padding: 0;
@@ -188,7 +191,7 @@ ul{
     clear: both;
     max-height: 100%;
     background: white;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     border-top-width: 1px;
     border-top-style: ridge;
 }
@@ -354,39 +357,103 @@ input[type=submit] {
 
 /*Footer*/
 
-.footer{
-    height: 250px;
+.footer-grid{
+    display: grid;   
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
 }
-.footer-flex {
-    display: flex;
-    justify-content: right;
-    padding: 40px;
-    margin-top: 50px;
+
+.icones-footer{
+    margin: 10px;
+    padding: 20px;
     
 }
-.footer-flex .item {
-    font-size: 30px;
-    margin: 10px; 
-    color: rgb(224, 223, 223);
+
+.fab{
+    color: #3dc1d6;
 }
-
-
-.footer-flex p{
-    position: relative;
-    bottom: 80%;
-    left: 140%;
+.icones-footer h2{
+   margin-top: 60px;
     color: white;
 }
 
-.footer-flex .item:hover{
-    color: white;
-    transition: 0.2s;
+.icones-footer p{
+    width: 300px;
+    text-align: left;
+}
+
+.icones-footer i:nth-of-type(n){
+    font-size: 24px;
+    margin: 10px;
     cursor: pointer;
+    
 }
 
-.border{
-    border: 2px solid #3dc1d6;
+.border-footer{
+    border-bottom: 2px solid #3dc1d6;  
 }
+
+.about{
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.about, .item6, .item7{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.item8 i{
+    font-size: 50px;
+}
+
+.item6{
+    padding-bottom: 2px;
+}
+
+.endereco{
+    margin: 10px;
+    text-align: center;
+}
+
+.copyright{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(51, 51, 51 );
+    text-align: center;
+    
+}
+
+
+.item8 p{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 250px;
+    background-color: red;
+}
+
+
+.footer-grid p{
+    color: #a19f9f;
+}
+
+.endereco .fas{
+    font-size: 15px;
+}
+
+.endereco x{
+    font-size: 21px;
+    font-weight: normal;
+    color: white;
+}
+
+
+
+
+
 
 
 
